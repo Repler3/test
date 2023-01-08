@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <title>Remy's Kitchen</title>
+       <link rel="stylesheet" href="css/styles.css">
+       <link rel="icon" href="favicon.ico">
+       <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+
+   </head>
+   <body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="salads.html" class="food" >Salads</a>
+        <a href="appetizers.html" class="food" >Appetizers</a>
+        <a href="maincourse.html" class="food" >Main Course</a>
+        <a href="desserts.html" class="food" >Desserts</a>
+        <a href="drinks.html" class="food" >Drinks</a>
+      </div>
+     
+    <div id="main">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+       
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+
+       <div class="top-container">
+
+           <h1>Remy's Kitchen</h1>
+           <p>A crash course to being a Full Stack Chef</p>
+
+           <br><br>
+           <a href="stew.html"><img class="stew" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/pot-of-food_1f372.png" alt="ramen image"><a>
+           <a href="cake.html"><img class="cake"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/shortcake_1f370.png" alt="cake image"></a>
+           <a href="pizaa.html"><img class="Pizza"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/pizza_1f355.png" alt="pizaa image"></a>
+           <a href="flatbread.html"><img class="flatbread"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/stuffed-flatbread_1f959.png" alt="flatbread image"></a>
+           <a href="burger.html"><img class="burger"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/hamburger_1f354.png" alt="burger image"></a>
+           <a href="doughnut.html"><img class="doughnut"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/doughnut_1f369.png" alt="doughnut image"></a>
+           <a href="spaghetti.html"><img class="spaghetti"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/spaghetti_1f35d.png" alt="spaghetti image"></a>
+           <a href="burrito.html"><img class="burrito"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/burrito_1f32f.png" alt="burrito image"></a>
+           <a href="pretzel.html"><img class="Pretzel"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/pretzel_1f968.png" alt="Pretzel image"></a>
+           <a href="cookie.html"><img class="cookie"src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/348/cookie_1f36a.png" alt="cookie image"></a>
+           <img src="Logo.png" alt="logo image">
+           
+       </div>
+       
+   </body>
+</html>

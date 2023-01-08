@@ -1,0 +1,204 @@
+body{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: beige;
+ }
+ h1{
+    margin: 0 auto 0 auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+ }
+ .search{
+    padding-bottom: 50px ;
+    text-align: center;
+ }
+.input{
+    background-color: beige;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 500px;
+    height: 30px;
+    text-align: center;
+}
+.sbox{
+    background-color: beige;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+ .top-container{
+    padding: 20px;
+    padding-top:50px;
+    position: relative;
+    padding-bottom:150px;
+    text-align: center;
+ }
+ .middle-container{
+    padding: 20px;
+    position: relative;
+    text-align: center;
+ }
+ .bottom-container{
+    background-color: beige;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+ }
+ .cake{
+    position:absolute;
+    left:350px;
+    top:200px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+ }
+ .Pizza{
+    position:absolute;
+    left:135px;
+    top:355px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+ }
+ .stew{
+    position: absolute;
+    padding:25px;
+    bottom:500px;
+    right:325px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+ }
+.flatbread{
+    position:absolute;
+    left:275px;
+    top:550px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+}
+.burger{
+    position: absolute;
+    padding:25px;
+    bottom:250px;
+    right:250px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+}
+.doughnut{
+    position:absolute;
+    left:60px;
+    top:100px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+}
+.spaghetti{
+    position:absolute;
+    left:55px;
+    top:600px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+}
+.burrito{
+    position: absolute;
+    padding:25px;
+    bottom:450px;
+    right:75px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+}
+.Pretzel{
+    position: absolute;
+    padding:25px;
+    bottom:115px;
+    right:30px;
+    height: 150px;
+    transition: transform .2s;
+    text-align: center;
+}
+.cookie{
+    position: absolute;
+    padding:25px;
+    bottom:700px;
+    right:125px;
+    height: 150px;
+    transition: transform .2s; /* Animation */
+    text-align: center;
+}
+
+.cookie:hover, .Pretzel:hover, .burrito:hover, .spaghetti:hover, .doughnut:hover, .taco:hover, .burger:hover, .flatbread:hover, .stew:hover, .cake:hover, .Pizza:hover{
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+ 
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+   /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+   /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+   /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+   /* The button used to open the sidebar */
+  .openbtn {
+    position: fixed;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    transition: transform .2s;
+  }
+   .openbtn:hover {
+    background-color: #444; 
+  }
+
+   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+    background-color: beige;
+  }
+   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .food{
+    transition: transform .2s;
+  }
+  .food:hover{
+    transform: scale(1.1);
+  }
+
+ 
